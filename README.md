@@ -2,13 +2,13 @@
 
 > I show here two way of creating docker image/container with/without docker compose file & I tried to show the whole process with screenshots and following step.
 ## New Repository on Docker Hub
-  1. Sign In on docker.com
-  2. After sign in select Repositories from dashboard Menu
+  1. **Sign In** on docker.com
+  2. After sign in select **Repositories** from dashboard Menu
 
 ![Image 0](https://github.com/iamonlysaiful/AspNetCoreWithDocker/blob/main/DemoBackendAPIForDocker/Screenshots/0.png?raw=true)
 
-  3. From Repositories Page Click Create Repository
-  5. Fill up Form and Click Create
+  3. From Repositories Page Click **Create Repository**
+  5. Fill up Form, Select Public/Private whatever you want and Click **Create**
 
 ![Image 1](https://github.com/iamonlysaiful/AspNetCoreWithDocker/blob/main/DemoBackendAPIForDocker/Screenshots/1.png?raw=true)
 
@@ -18,12 +18,12 @@
 
 ## Hosting Docker Image of ASP.NET Core App
   1. Create or Open .NET Core App
-  2. Here my App running on 61756 port
+  2. Here my App running on **61756** port
 
 ![Image 3](https://github.com/iamonlysaiful/AspNetCoreWithDocker/blob/main/DemoBackendAPIForDocker/Screenshots/3.png?raw=true)
   
-  3. Right Click on project & Click Add then Click Docker Support…
-  4. Then Select Target OS, In my case Linux
+  3. Right **Click on project** & **Click Add** then **Click Docker Support**
+  4. Then Select **Target OS**, In my case Linux
 
 ![Image 4](https://github.com/iamonlysaiful/AspNetCoreWithDocker/blob/main/DemoBackendAPIForDocker/Screenshots/4.png?raw=true)
 
@@ -32,12 +32,12 @@
 
 ![Image 5](https://github.com/iamonlysaiful/AspNetCoreWithDocker/blob/main/DemoBackendAPIForDocker/Screenshots/5.png?raw=true)
 
-  7. Edit Docker File configuration according your project location
+  7. **Edit Docker File** configuration according your project location
 
 ![Image 6](https://github.com/iamonlysaiful/AspNetCoreWithDocker/blob/main/DemoBackendAPIForDocker/Screenshots/6.png?raw=true)
   
-  8. Open Project Location on Command Prompt or PowerShell
-  9. Run build command
+  8. Open **Project Location** on Command Prompt or PowerShell
+  9. Run **build** command
 
 ![Image 7](https://github.com/iamonlysaiful/AspNetCoreWithDocker/blob/main/DemoBackendAPIForDocker/Screenshots/7.png?raw=true)
 
