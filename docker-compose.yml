@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  demobackendapifordocker:
+    image: tuhinsaiful/demoapiapp
+    build:
+      context: .
+      dockerfile: DemoBackendAPIForDocker/Dockerfile
