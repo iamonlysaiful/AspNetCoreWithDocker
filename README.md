@@ -1,4 +1,6 @@
 # Exploring ASP .NET Core With Docker hub for Windows & Linux
+
+> I show here two way of creating docker image/container with/without docker compose file & I tried to show the whole process with screenshots and following step.
 ## New Repository on Docker Hub
   1. Sign In on docker.com
   2. After sign in select Repositories from dashboard Menu
